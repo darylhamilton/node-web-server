@@ -54,7 +54,7 @@ app.get('/about', (req, res) => {
 
 app.get('/projects', (req, res) => {
   res.render('project.hbs', {
-    pageTitle: 'Project Page',
+    pageTitle: 'Projects Page',
   });
 });
 //bad /bad - errorMessage
